@@ -3,5 +3,5 @@ name: Jupyter Dev
 category: Interactive Apps
 subcategory: Servers
 role: batch_connect
-description: |
-  This app will launch a Jupyter server on one or more nodes.
+description: "This app will launch a Jupyter server on one or more nodes.\r\n"
+icon: ''

@@ -50,14 +50,14 @@ attributes:
     min: 1
     step: 1
     help: "Maximum wall time is 1 week"
-  jupyter_binary:
-    label: Jupyter Binary
-    help: Enter a path to the jupyter binary
-    value: 'jupyter-lab'
+  marimo_binary:
+    label: marimo binary
+    help: Enter a path to the marimo binary
+    value: 'marimo'
   conda_env:
     label: Conda Environment Name
     help: Enter the name of the conda environment to use
-    value: 'jupyterlab'
+    value: 'marimo'
   notebook_directory:
     label: Notebooks directory
     help: Enter a path to the notebooks
@@ -80,7 +80,7 @@ form:
   - num_cores
   - num_hours
   - memory
-  - jupyter_binary
+  - marimo_binary
   - conda_env
   - notebook_directory
 
